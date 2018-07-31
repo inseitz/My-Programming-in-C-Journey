@@ -1,7 +1,16 @@
 #include <stdio.h>
+/*tells the
+compiler information about the printf output routine*/
 
 int main(void)
+/*informs the system that the name of the program is main, and that it returns an integer
+value, which is abbreviated “int.” main is a special name that indicates precisely where the
+program is to begin execution.The open and close parentheses immediately following
+main specify that main is the name of a function.The keyword void that is enclosed in
+the parentheses specifies that the function main takes no arguments*/
 {
   printf("Programming is fun!\n");
+  printf("And programming in C is even more fun! \n");
+  
   return 0;
 }
