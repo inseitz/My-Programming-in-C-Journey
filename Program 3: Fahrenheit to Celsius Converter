@@ -1,0 +1,18 @@
+//program that asks user what the fahrenheit temperature is and converts it as a float and displays it as the correct celsius temperature.
+
+#include<stdio.h>
+
+int main (void)
+{
+	float c;
+	float f;
+
+	printf("Enter the temperature in Fahrenheit please: ");
+	scanf("%f", &f);
+
+	c = (f - 32) / 1.8;
+
+	printf("%.4f degrees Fahrenheit equals %.4f Celsius\n", f, c);
+
+	return 0;
+}
